@@ -28,6 +28,6 @@ For a local preview, run `python3 -m http.server 8000` from this directory and v
 
 ## Content sources
 
-The affiliation and email were checked against the [Caltech profile](https://www.pma.caltech.edu/people/nisarga-paul) and [Physical Review Letters contact information](https://journals.aps.org/prl/abstract/10.1103/rpj5-cns6). The short research description summarizes the linked papers. Titles, author lists, journal references, and publication years were checked against arXiv and publisher records on September 7, 2026. The bibliography includes the 27 papers from the supplied publication list. No CV, research-interest text, talks, or other sections from that draft document are published.
+The affiliation and email were checked against the [Caltech profile](https://www.pma.caltech.edu/people/nisarga-paul) and [Physical Review Letters contact information](https://journals.aps.org/prl/abstract/10.1103/rpj5-cns6). The introduction follows the author's preferred broad description. The bibliography includes the 27 papers from the author's supplied publication list, with recent publication details checked against arXiv and publisher records on September 7, 2026.
 
 The layout takes inspiration from the academic pages of [Hsin-Yuan Huang](https://hsinyuan-huang.github.io/) and [Tomohiro Soejima](https://tomohiro-soejima.github.io/); the implementation is original.
