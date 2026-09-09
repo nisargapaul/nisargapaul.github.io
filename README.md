@@ -20,11 +20,13 @@ Once the final PDF is supplied, save it as `documents/cv.pdf`. Replace the CV co
 
 The CV link is intentionally absent until the PDF is available.
 
-## GitHub Pages
+## Hosting and local preview
 
-Use the public repository `nisargapaul/nisargapaul.github.io`. In **Settings → Pages**, choose **Deploy from a branch**, then **main** and **/ (root)**. The `.nojekyll` file serves these files without Jekyll processing. Every commit to `main` updates the site.
+The site is published with GitHub Pages from the `main` branch at the repository root, at https://nisargapaul.github.io/.
 
-For a local preview, run `python3 -m http.server 8000` from this directory and visit `http://localhost:8000`.
+For a preview available only on this computer, run `python3 -m http.server 8000 --bind 127.0.0.1` from this directory and visit `http://127.0.0.1:8000`.
+
+The `.nojekyll` file allows GitHub Pages to serve the static files directly. Future edits should be previewed locally and published only when Nisarga asks.
 
 ## Content sources
 
